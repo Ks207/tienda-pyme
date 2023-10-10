@@ -79,6 +79,7 @@ const IndexRoute: React.FC<Props> = ({ products }) => {
           bottom={0}
           position="sticky"
           as={Link}
+          target="_blank"
           href={`https://wa.me/+56973541415?text=${encodeURIComponent(text)}`}
           colorScheme="whatsapp"
           leftIcon={
