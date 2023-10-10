@@ -9,6 +9,7 @@ import {
   Box,
   Divider,
   Link,
+  Center,
 } from "@chakra-ui/react";
 import { AppProps } from "next/app";
 import theme from "@/theme";
@@ -41,6 +42,9 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
               >
                 Google Sheets
               </Link>
+              <Center>
+                <Text fontSize="xs">Actualiza info cada 15 segundos</Text>
+              </Center>
             </Text>
           </VStack>
           <Divider marginY={6} />
