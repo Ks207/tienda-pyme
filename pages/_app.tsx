@@ -24,7 +24,12 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
           borderRadius="lg"
         >
           <VStack marginBottom={6}>
-            <Image borderRadius={999} src="//placehold.it/128x128"></Image>
+            <Image
+              alt="imagen de un cartel de tienda abierta "
+              maxHeight={128}
+              borderRadius={999}
+              src="https://res.cloudinary.com/dg4lwg1ih/image/upload/v1696959276/open-shop_do3eyy.avif"
+            ></Image>
             <Heading>Tienda PYME</Heading>
             <Text>Tienda bajo costo para PYME</Text>
           </VStack>
