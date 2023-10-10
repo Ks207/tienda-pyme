@@ -70,7 +70,6 @@ const IndexRoute: React.FC<Props> = ({ products }) => {
           margin="auto"
           bottom={0}
           position="sticky"
-          isExternal
           as={Link}
           href={`https://wa.me/+56973541415?text=${encodeURIComponent(text)}`}
           colorScheme="whatsapp"
