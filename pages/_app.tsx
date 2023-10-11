@@ -34,7 +34,7 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
             ></Image>
             <Heading>Tienda PYME</Heading>
             <Text>
-              Tienda bajo costo para PYME utilizando{" "}
+              Tienda PYME utilizando{" "}
               <Link
                 target="_blank"
                 color="teal.500"
