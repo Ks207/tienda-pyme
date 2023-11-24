@@ -1,4 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 
+
+Web Store utilizando WhatsApp Checkout orientado a MiPyME. Utiliza Google Sheets(https://docs.google.com/spreadsheets/d/1m7KrDR3dP3vzFcE0iF3bPV1stvomCwvLTN4pHq16xtg/edit) como base de datos y actualiza la información cada 15 segundos.
+
 
 ## Getting Started
 
